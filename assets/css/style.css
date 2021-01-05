@@ -1,0 +1,130 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
+}
+
+.nav__container {
+  height: 64px;
+}
+
+img.nav__logo {
+  height: 36px;
+}
+
+.bg-brand {
+  background: #7c5ef1;
+}
+
+.form__cari:active,
+.form__cari:focus {
+  box-shadow: none;
+}
+
+.btn__cari {
+  max-height: 85%;
+}
+
+.btn__masuk,
+.btn__daftar {
+  transition: all 500ms;
+}
+
+.btn__daftar,
+.btn__daftar:hover,
+.btn__daftar:active {
+  color: #7c5ef1 !important;
+  background-color: #ffffff !important;
+}
+
+.btn__masuk:hover,
+.btn__masuk:active {
+  color: #ffffff !important;
+  background: #7c5ef1 !important;
+}
+
+.btn__masuk:focus,
+.btn__daftar:focus {
+  box-shadow: none !important;
+}
+
+img.carousel__image {
+  height: 360px;
+  object-fit: cover;
+}
+
+.book__list-title {
+  color: #212529;
+}
+
+.book__list-title:hover {
+  color: #7c5ef1;
+}
+
+.book__list-author {
+  font-size: 14px;
+}
+.book__list-category {
+  font-size: 13px;
+}
+
+.book__list-category {
+  padding: 4px 8px;
+  background-color: #f1f1f1;
+}
+
+.banner__container {
+  background-image: url("../img/img-banner.png");
+  background-position: left;
+  background-size: 45%;
+  background-repeat: no-repeat;
+}
+
+.promotion__container {
+  height: 540px;
+  background-image: url("../img/img-promotion-top.png"),
+    url("../img/img-promotion-bottom.png");
+  background-size: 27.5%, 35%;
+  background-position: left -20%, right 300%;
+  background-repeat: no-repeat;
+}
+
+a.promotion__register,
+a.promotion__learn {
+  padding: 4px 12px;
+  margin: 4px 8px;
+  border: 2px solid;
+}
+
+a.promotion__register {
+  background-color: #7c5ef1;
+  border-color: #7c5ef1;
+  color: #ffffff;
+}
+
+a.promotion__learn {
+  background-color: #ffffff;
+  border-color: #7c5ef1;
+  color: #7c5ef1;
+}
+
+a.promotion__register:hover,
+a.promotion__learn:hover {
+  text-decoration: none;
+}
+
+.footer__link {
+  font-size: 14px;
+}
+
+.footer__link,
+.footer__link:hover {
+  color: #6c757d;
+}
